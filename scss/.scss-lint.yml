@@ -1,0 +1,16 @@
+linters:
+  LeadingZero:
+    style: include_zero
+
+  NestingDepth:
+    max_depth: 4
+
+  PropertySortOrder:
+    order: smacss
+
+  VariableForProperty:
+    enabled: true
+    properties:
+      - color
+      - font
+      - font-family

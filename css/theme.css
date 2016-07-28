@@ -1,5 +1,75 @@
+header ul {
+  margin: 0;
+  padding: 0; }
+
+header li {
+  display: block; }
+
 body {
-  font-family: sans-serif;
-  margin: 0; }
+  margin: 0;
+  font-family: Raleway, Helvetica, Arial, sans-serif; }
+
+header {
+  position: relative;
+  height: 8rem;
+  color: #fff;
+  font: 1.25rem Raleway, Helvetica, Arial, sans-serif;
+  line-height: 8rem;
+  z-index: 2; }
+  header h1 {
+    margin: 0;
+    float: left;
+    font-size: inherit; }
+    header h1 > a {
+      padding: 0 1rem; }
+    header h1 img {
+      height: 6rem;
+      vertical-align: middle; }
+  header ul {
+    margin: 0 0 0 2rem;
+    float: right;
+    text-shadow: 0 0 0.3em #000; }
+  header li {
+    float: left; }
+    header li > a {
+      padding: 0 1.5rem; }
+    header li:last-child > a {
+      padding-right: 3rem; }
+  header :link,
+  header :visited {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0);
+    color: inherit;
+    text-decoration: inherit; }
+    header :link:hover, header :link:focus,
+    header :visited:hover,
+    header :visited:focus {
+      background: rgba(255, 255, 255, 0.25); }
+
+.home-heroimage {
+  position: relative;
+  height: 100vh;
+  margin: -8rem 0 0;
+  background: url("../images/home-hero.jpg") no-repeat center #ec887a;
+  background-size: cover;
+  color: #fff;
+  text-align: center; }
+  .home-heroimage h1 {
+    margin: 0; }
+    .home-heroimage h1 > span {
+      display: block;
+      position: absolute;
+      right: 0;
+      left: 0;
+      text-shadow: 0 0 0.3em #000; }
+      .home-heroimage h1 > span:first-child {
+        bottom: 50%;
+        font-size: 2rem;
+        font-weight: 300; }
+      .home-heroimage h1 > span:last-child {
+        top: 50%;
+        font-size: 4rem;
+        font-weight: bold;
+        text-transform: uppercase; }
 
 /*# sourceMappingURL=theme.css.map */
