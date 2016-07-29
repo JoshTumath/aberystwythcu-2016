@@ -1,0 +1,33 @@
+header {
+  position: relative;
+  height: 8rem;
+  background: none;
+  z-index: 2; }
+  header ul {
+    float: right;
+    clear: none;
+    background: none;
+    line-height: inherit; }
+  header li {
+    float: left; }
+    header li > a {
+      display: inline-block; }
+    header li:last-child > a {
+      padding-right: 3rem; }
+
+.home-heroimage {
+  position: relative;
+  height: 100vh;
+  margin: -8rem 0 0; }
+  .home-heroimage h1 > span {
+    position: absolute;
+    right: 0;
+    left: 0; }
+    .home-heroimage h1 > span:first-child {
+      bottom: 50%;
+      font-size: 2rem; }
+    .home-heroimage h1 > span:last-child {
+      top: 50%;
+      font-size: 4rem; }
+
+/*# sourceMappingURL=theme-960.css.map */

@@ -12,8 +12,9 @@
                 {{ app.config.get('general/sitename') -}}
             {% if record.title is not defined and app.config.get('general/payoff') %} | {{ app.config.get('general/payoff') }}{% endif -%}
         </title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700,700i"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700,700i">
         <link rel="stylesheet" href="{{ paths.theme }}css/theme.css">
+        <link rel="stylesheet" href="{{ paths.theme }}css/theme-960.css" media="(min-width: 960px)">
         {% block headincludes %}
         {% endblock headincludes %}
     </head>
